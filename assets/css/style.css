@@ -220,9 +220,9 @@ input[type=submit] {
 
 /*  Responsive -Portfolio Styles */
 
+
 /* Width of Screen 980px and below*/
 @media screen  and (max-width: 980px) {
-
   /* Universal Styling Change */
     #main-container {
       width: 700px;
@@ -260,14 +260,11 @@ input[type=submit] {
       #main-container {
       margin-left: 20px;
     }
-
   }
 
 /* Width of Screen 640px and below*/
 @media screen and (max-width: 640px) {
-
     /* Univeral Styles */
-
       /* Header */
       #logo {
         position: static;
@@ -289,16 +286,14 @@ input[type=submit] {
         margin-top: 50px;
       }
 
-
       /* About Me Styles */
        img.auth-image {
           width: 100%;
       } 
     
-        /*Portfolio Styles  */
-        div.work {
+      /*Portfolio Styles  */
+      div.work {
           width: 100%;
-        }
-
+       }
   }
 
