@@ -215,3 +215,43 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+
+/*  Responsive -Portfolio Styles */
+
+
+
+/* Width of Screen 980px and below*/
+@media screen  and (max-width: 980px) {
+
+  /* Universal Styling Change */
+    #main-container {
+      width: 700px;
+      margin: 0 40px;
+      font-size: 14px;
+    }
+
+        .main-section h1 {
+       line-height: 0px;
+     }
+
+     /* About Me Style updates */
+    .main-section p:nth-child(2n) {
+      display: none   
+     }
+
+     /*Contact Style updates  */
+     #contact-form ul{
+       list-style-type: none;
+       margin-left: -40px;
+     }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 640px) {}
