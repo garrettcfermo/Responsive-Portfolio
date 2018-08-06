@@ -235,6 +235,10 @@ input[type=submit] {
         .main-section h1 {
        line-height: 0px;
      }
+     
+     nav {
+       margin-right: 50px;
+     }
 
      /* About Me Style updates */
     .main-section p:nth-child(2n) {
@@ -248,10 +252,15 @@ input[type=submit] {
      }
 }
 
+/* Width of Screen 768px and below*/
+@media screen and (max-width: 768px) {
 
+    /* About Me Style Updates */
+    img.auth-image {
+     width: 400px;
+    } 
+}
 
-
-
-
-@media screen and (max-width: 768px) {}
-@media screen and (max-width: 640px) {}
+/* Width of Screen 640px and below*/
+@media screen and (max-width: 640px) {
+}
